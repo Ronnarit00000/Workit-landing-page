@@ -153,8 +153,13 @@ select {
     outline: none;
 }
 
-html {
-    /* fix overflow issue */
+/* ------------------------------------------------------ */
+/*                          html                          */
+/*                    fix overflow issue                  */
+/* ------------------------------------------------------ */
+
+html,
+body {
     overflow-x: hidden;
 }
 
